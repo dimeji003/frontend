@@ -1,0 +1,10 @@
+.image{
+    border-radius: 0 25px 0 25px;
+    border: 20px solid grey;
+}
+
+.image figcaption{
+    background-color: grey;
+    padding: 10px;
+    
+}

@@ -1,12 +1,11 @@
-export default function page() {
+import Main from "./components/Main";
+
+
+export default function Home() {
   return (
-    <div>
-      <h1>hello react</h1>
-      <section>
-        <h2></h2>
-      </section>
+    <main>
+      <Main />
 
-
-    </div>
+    </main>
   )
 }
