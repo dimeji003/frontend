@@ -1,18 +1,22 @@
 import Image from 'next/image'
 import React from 'react'
 import pic from '../images/book2.jpg'
-
+import styles from './main.module.css'
+import Link from 'next/link'
 
 export default function Main() {
   return (
-    <div>
-        <h1 className='text-5xl text-center py-[50px]'>wakil library</h1>
-        <section className='grid grid-cols-2'>
-
-        <Image src='/media/photo-1497633762265-9d179a990aa6.webp' alt='books' width={600} height={500}/>
-        <Image src={pic} alt= 'books' width={600} height={500}/>
-        <Image src='https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' width={600} height={500}/> 
-        </section>
+    <div className={styles.main}>
+      <div className='w-[40%] m-auto'>
+        <h1 className={`text-white text-7xl text-center pt-24 ${styles.header}`}>WELCOME <br />TO <br /> WAKIL LIBRARY</h1>
+        <p className='text-white text-2xl text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <Link href='/course'>
+        <div className='text-center pt-10'>
+        <button className='bg-yellow-300 h-14 w-36 rounded-xl text-xl '>GET STARTED</button>
+        </div>
+        </Link>
+      </div>
+        
     </div>
   )
 }

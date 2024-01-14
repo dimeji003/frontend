@@ -8,7 +8,7 @@ const dimeji = Glass_Antiqua({
   weight: ['400']})
 
 export const metadata = {
-  title: 'Beginners React Class',
+  title: 'Wakil Library',
   description: 'Frontend 6B6 class 1 on React',
 }
 
