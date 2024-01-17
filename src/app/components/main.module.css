@@ -1,10 +1,20 @@
 @media screen and (max-width: 480px){
+    .main{
+        background-image: radial-gradient(rgba(15, 7, 7, 0.53), rgba(17, 6, 6, 0.576)), url(/back.webp);
+        background-size: cover;
+        height: 90vh;
+    }
 
 }
 @media screen and (min-width: 481px){
+    .main{
+        background-image: radial-gradient(rgba(15, 7, 7, 0.53), rgba(17, 6, 6, 0.576)), url(/back.webp);
+        background-size: cover;
+        height: 90vh;
+    }
 
 }
-@media screen and (min-width: 769px){
+@media screen and (min-width: 821px){
     .main{
         background-image: radial-gradient(rgba(15, 7, 7, 0.53), rgba(17, 6, 6, 0.576)), url(/back.webp);
         background-size: cover;

@@ -1,9 +1,9 @@
-import { Glass_Antiqua } from 'next/font/google'
+import { Work_Sans} from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-const dimeji = Glass_Antiqua({
+const dimeji = Work_Sans({
    subsets: ['latin'] ,
   weight: ['400']})
 
