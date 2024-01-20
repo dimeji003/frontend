@@ -16,8 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={dimeji.className}>
-      <Navbar />
+      
       <div className='min-h-[70vh]'>
+      <Navbar/>
         {children}
 
       </div>
